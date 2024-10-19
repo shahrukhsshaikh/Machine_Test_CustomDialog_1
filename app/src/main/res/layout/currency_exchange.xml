@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewConvertedAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converted Amount"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCurrencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonCAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canadian Dollar" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US Dollar" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="British Pound" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCHI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chinese Yuan" />
+    </RadioGroup>
+</LinearLayout>
